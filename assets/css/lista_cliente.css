@@ -1,0 +1,71 @@
+.galeria{
+	padding: 64px 192px;
+}
+
+.categoria__titulo{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.more{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgb(51, 51, 198);
+}
+
+.starwars{
+	display: flex;
+	flex-direction: column;
+}
+
+.encabezado{
+	display: flex;
+	justify-content: space-between;	
+	padding: 16px 5px;
+	align-items: center;
+}
+
+.productos{
+	display: flex;
+	justify-content: space-around;
+}
+
+.descripcion{
+	display: flex;
+	flex-direction: column;
+	height: 78px;
+	justify-content: space-evenly;
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+}
+
+.item__title{
+	font-family: 'Raleway', sans-serif;
+	font-weight: medium;
+	font-size: 14px;
+}
+
+.item__precio{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.item__detalles{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #2A7AE4;
+}
+
+/* @media(min-width: 1200px) {
+	.clientes-container {
+		padding-left: calc((100vw - 900px)/2);
+		padding-right: calc((100vw - 900px)/2);
+	}
+} */

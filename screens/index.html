@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AluraGeek | Inicio</title>
+  <link rel="icon" href="../assets/img/github.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/base/base.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/header.css" />
+  <link rel="stylesheet" href="../assets/css/lista_cliente.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/table.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/button.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/modal.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/footer.css" />
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header__side">
+      <img src="../assets/img/logo.png" alt="Logo AluraGeeks" class="header__logo" />
+
+      <div class="group">
+        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+          <g>
+            <path
+              d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+            </path>
+          </g>
+        </svg>
+        <input placeholder="Que desea buscar?" type="search" class="input">
+      </div>
+    </div>
+
+    <button>
+      <span class="span-mother">
+        <span>L</span>
+        <span>o</span>
+        <span>g</span>
+        <span>i</span>
+        <span>n</span>
+      </span>
+      <span class="span-mother2">
+        <span>L</span>
+        <span>o</span>
+        <span>g</span>
+        <span>i</span>
+        <span>n</span>
+      </span>
+    </button>
+  </header>
+
+  <section class="banner">
+    <div class="banner__contenido">
+      <h2 class="banner__titulo">Febrero Promocional</h2>
+      <span class="banner__texto">Productos seleccionados con 33% de descuento</span>
+      <button class="banner__boton">
+        <span class="banner__boton_texto">Ver Consolas!</span>
+      </button>
+    </div>
+  </section>
+
+
+    <div class="galeria" inventarios>
+      <div class="categoria">
+        <div class="encabezado">
+          <h2 class="categoria__titulo">Star Wars</h2>
+          <span class="more">Ver Todo -></span>
+        </div>
+
+        <div class="productos" data-productos>
+        </div>
+      </div>
+
+      <div class="consolas">
+
+      </div>
+      <div class="diversos">
+
+      </div>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="table__column--p">Nombre</th>
+          <th class="table__column--g">Email</th>
+          <th class="table__column--m table__align--right">
+            <a href="./registrar_cliente.html" class="simple-button simple-button--add">Nuevo Cliente</a>
+          </th>
+        </tr>
+      </thead>
+      <tbody data-table>
+
+      </tbody>
+    </table>
+    <div class="modal-container modal--close">
+      <article class="modal">
+        <h2 class="modal__title">Eliminar</h2>
+        <button class="modal__close">X</button>
+        <p class="modal__text">¿Deseas continuar?</p>
+        <div class="modal__button-container">
+          <button class="modal__button modal__button--confirm">
+            Eliminar
+          </button>
+          <button class="modal__button">No eliminar</button>
+        </div>
+      </article>
+    </div>
+
+  <!-- Habla con nosotros -->
+  <section class="hablaNosotros">
+    <div class="logo">
+      <img src="../assets/img/logo.png" alt="logoAluraGeek">
+    </div>
+    <div class="lista">
+      <ul class="lista_opciones">
+        <li>Quienes somos</li>
+        <li>Politica de privacidad</li>
+        <li>Programa de fidelidad</li>
+        <li>Nuestras tiendas</li>
+        <li>Quiero ser franquiciado</li>
+        <li>Anuncie aqui</li>
+      </ul>
+    </div>
+    <div class="formulario">
+      <form class="form">
+        <p class="titleForm">Hable con nosotros</p>
+
+        <label class="form__label">
+            <input required="" placeholder="" type="text" class="input">
+            <span>Nombre</span>
+        </label>
+
+        <label class="form__label">
+            <input required="" placeholder="" type="email" class="input">
+            <span>Email</span>
+        </label>
+
+        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+            placeholder="Mensaje"></textarea>
+
+        <button class="submit" type="submit">Enviar Mensaje</button>
+    </form>
+    </div>
+  </section>
+  <!-- Sección de Footer -->
+  <footer class="footer">
+    <div class="footer__logos">
+      <a href="https://github.com/Jhan24b"><img class="footer__logos__items" src="../assets/img/github.png" alt="Github"></a>
+      <a href="https://www.linkedin.com/in/anthony-torres-13591b1b5/"><img class="footer__logos__items"
+          src="../assets/img/linkedin.png" alt="LinkedIn"></a>
+    </div>
+    <div class="footer__rodape">
+      <p class="footer__texto">Desarrollado por Anthony J. Torres</p>
+      <p class="footer__texto">2023</p>
+    </div>
+    <div class="footer__logos">
+      <a href="https://github.com/Jhan24b"><img src="../assets/img/instagram.png" class="footer__logos__items"
+          alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/anthony-torres-13591b1b5/"><img src="../assets/img/facebook.png"
+          class="footer__logos__items" alt="Facebook"></a>
+    </div>
+  </footer>
+
+  <script type="module" src="../controllers/producto-controller.js"></script>
+  <script type="module" src="../controllers/client-controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+.table {
+  margin-top: 2.25rem;
+  width: 100%;
+  background-color: var(--contrast-ligth-color);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  border-collapse: initial;
+  text-align: left;
+}
+
+.table td:first-of-type,
+.table th:first-of-type {
+  padding-left: 1.75rem;
+}
+
+.table td:last-of-type,
+.table th:last-of-type {
+  padding-right: 1.75rem;
+}
+
+.table thead {
+  font-size: var(--font-size-table-header);
+}
+
+.table th {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--secundary-color);
+}
+
+.table td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.table__align--right {
+  text-align: right;
+}
+
+.table__column--p {
+  width: 20%;
+}
+
+.table__column--m {
+  width: 25%;
+}
+
+.table__column--g {
+  width: 50%;
+}
+
+.table tr:last-of-type td {
+  padding-bottom: 1.75rem;
+}
+
+.table__button-control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.table__button-control li:first-of-type {
+  margin-right: 2.25rem;
+}
+
+.td {
+  padding: 1rem;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../img/Hero.png');
+  height: 352px;
+  width: 100%;
+}
+
+.banner__contenido{
+  padding: 32px 150px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.banner__titulo{
+  color: #fff;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  padding: 8px 0px;
+}
+
+.banner__texto{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 450;
+  font-family: 'Raleway', sans-serif;
+  padding: 16px 0px;
+}
+
+/* Boton banner */
+.banner__boton {
+  border-radius: 4px;
+  background-color: #3f49a7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 26px 16px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+ }
+ 
+ .banner__boton .banner__boton_texto {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ .banner__boton .banner__boton_texto:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ .banner__boton:hover .banner__boton_texto {
+  padding-right: 25px;
+ }
+ 
+ .banner__boton:hover .banner__boton_texto:after {
+  opacity: 1;
+  right: 0;
+ }
