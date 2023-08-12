@@ -3,7 +3,7 @@ const crearLinea = (img, title, price, id) => {
   const item = document.createElement("div");
   const cod = `
     <div class="inventario__item">
-        <img class="inventario__item__img" src=${img}>
+        <img class="inventario__item__img" src="../${img}">
         <a href="../screens/editar_producto.html?id=${id}" class="simple-button simple-button--edit"> 
         <img class="icono" src="../assets/img/edit.png" alt="boton editar"></a>
         <button class="simple-button simple-button--delete" type="button" id=${id}>
