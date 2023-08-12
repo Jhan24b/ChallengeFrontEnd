@@ -167,6 +167,11 @@
     color: rgb(60, 81, 200);
 }
 
+.addProducto a:hover {
+    text-decoration: none;
+    color: rgb(60, 81, 200);
+}
+
 .addProducto:after {
     content: "";
     background: white;
