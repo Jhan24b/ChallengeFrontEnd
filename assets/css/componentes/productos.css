@@ -158,6 +158,11 @@
     overflow: hidden;
 }
 
+.addProducto a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .addProducto:hover {
     color: rgb(60, 81, 200);
 }
