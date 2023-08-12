@@ -1,17 +1,17 @@
 {
   "name": "admin",
   "version": "1.0.0",
-  "description": "1836-crud_js_async project",
+  "description": "ChallengeFrontEnd ALURA",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarlandLohora/1836-CRUD_JS_Async.git"
+    "url": "https://github.com/Jhan24b/ChallengeFrontEnd"
   },
   "keywords": [
-    "Alura"
+    "Alura","ChallengeFrontEnd"
   ],
   "author": "Anthony Torres Bedoya",
   "license": "ISC",
