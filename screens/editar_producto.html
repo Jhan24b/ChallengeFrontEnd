@@ -4,19 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AluraGeek | Registrar</title>
+  <title>AluraGeek | Editar</title>
   <link rel="icon" href="../assets/img/icono.jpeg" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/base/base.css" />
   <link rel="stylesheet" href="../assets/css/componentes/header.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/card.css" />
+  <link rel="stylesheet" href="../assets/css/register_client.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/inputs.css" />
   <link rel="stylesheet" href="../assets/css/componentes/button.css" />
-  <link rel="stylesheet" href="../assets/css/componentes/footer.css" />
   <link rel="stylesheet" href="../assets/css/formLogin.css">
-  <link rel="stylesheet" href="../assets/css/componentes/inputs.css">
+  <link rel="stylesheet" href="../assets/css/componentes/footer.css" />
 </head>
 
 <body>
@@ -37,23 +36,12 @@
     </div>
     <button id="bottone5"><a href="../screens/principal.html">Menu Administrador</a></button>
   </header>
-
-  <!-- Inicio de sesion -->
   <main class="container flex flex--center flex--column">
-
     <section class="formularioProducto">
-      <h1 class="form_is-title">Agregar nuevo producto</h1>
+      <h1 class="form_is-title">Editar producto</h1>
       <form class="form_is" data-form>
         <div class="input_form-container">
-          <input
-            name="url"
-            id="url"
-            class="input_form"
-            type="text"
-            placeholder="URL de la imagen"
-            required
-            data-url
-          />
+          <input name="url" id="url" class="input_form" type="text" placeholder="URL de la imagen" required data-url />
           <label class="input_form-label" for="url">URL</label>
           <span class="input_form-menssage-error">Este campo es requerido</span>
         </div>
@@ -63,41 +51,19 @@
           </select>
         </div>
         <div class="input_form-container">
-          <input
-            name="nombre"
-            id="nombre"
-            class="input_form"
-            type="text"
-            placeholder="Nombre del producto"
-            required
-            data-nombre
-          />
+          <input name="nombre" id="nombre" class="input_form" type="text" placeholder="Nombre del producto" required
+            data-nombre />
           <label class="input_form-label" for="nombre">Nombre</label>
           <span class="input_form-menssage-error">Este campo es requerido</span>
         </div>
         <div class="input_form-container">
-          <input
-            name="precio"
-            id="precio"
-            class="input_form"
-            type="text"
-            placeholder="$100.00"
-            required
-            data-precio
-          />
+          <input name="precio" id="precio" class="input_form" type="text" placeholder="$100.00" required data-precio />
           <label class="input_form-label" for="precio">Precio</label>
           <span class="input_form-menssage-error">Este campo es requerido</span>
         </div>
         <div class="input_form-container">
-          <input
-            name="descripcion"
-            id="descripcion"
-            class="input_form"
-            type="text"
-            placeholder="Breve descripcion del producto"
-            required
-            data-descripcion
-          />
+          <input name="descripcion" id="descripcion" class="input_form" type="text"
+            placeholder="Breve descripcion del producto" required data-descripcion />
           <label class="input_form-label" for="descripcion">Descripcion</label>
           <span class="input_form-menssage-error">Este campo es requerido</span>
         </div>
@@ -105,7 +71,6 @@
       </form>
     </section>
   </main>
-  
 
   <!-- Habla con nosotros -->
   <section class="hablaNosotros">
@@ -165,11 +130,10 @@
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" 
-  integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" 
-  crossorigin="anonymous" 
-  referrerpolicy="no-referrer"></script>
-  <script type="module" src="../controllers/registro-controller.js"></script>
+  <script type="module" src="../controllers/actualizar-controller.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+    integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="module" src="../controllers/formulario.js"></script>
 </body>
 

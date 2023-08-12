@@ -30,6 +30,7 @@
 .productos{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .descripcion{
@@ -61,6 +62,10 @@
 	font-weight: bold;
 	font-size: 16px;
 	color: #2A7AE4;
+}
+
+.inventario__item__img{
+    width: 176px;
 }
 
 /* @media(min-width: 1200px) {

@@ -4,11 +4,11 @@
   border-radius: 7px;
   width: 100%;
   margin-top: 1rem;
-  max-width: 20rem;
-  padding: 1.125rem;
+  max-width: 16rem;
+  padding: .8rem;
   box-sizing: border-box;
   color: var(--contrast-ligth-color);
-  font-size: var(--font-size-button);
+  font-size: 20px;
   align-self: center;
   text-align: center;
 }

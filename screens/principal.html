@@ -8,16 +8,15 @@
   <link rel="icon" href="../assets/img/icono.jpeg" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/base/base.css" />
   <link rel="stylesheet" href="../assets/css/componentes/header.css" />
-  <link rel="stylesheet" href="../assets/css/lista_cliente.css" />
-  <link rel="stylesheet" href="../assets/css/componentes/table.css" />
   <link rel="stylesheet" href="../assets/css/componentes/button.css" />
   <link rel="stylesheet" href="../assets/css/componentes/modal.css" />
   <link rel="stylesheet" href="../assets/css/componentes/footer.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/productos.css">
 </head>
 
 <body>
@@ -36,8 +35,7 @@
         <input placeholder="Que desea buscar?" type="search" class="input">
       </div>
     </div>
-
-    <button id="bottone5"><a href="../screens/inicio_sesion.html">Login</a></button>
+    <a href="../screens/index.html"><img class="logout" src="../assets/img/logout.png" alt="LogOut"></a>
   </header>
 
   <section class="banner">
@@ -50,12 +48,34 @@
     </div>
   </section>
 
-
-  <div class="galeria" inventarios>
-    <div class="categoria">
-      
+    <div class="productos">
+      <div class="encabezado">
+        <p class="encabezadoTitulo">Todos los productos</p>
+        <button class="addProducto"> 
+          <a href="../screens/registrar_producto.html"> 
+            Agregar producto 
+          </a>
+        </button>
+      </div>
+      <div class="inventario" inventario>
+        
+      </div>
     </div>
-  </div>
+
+
+    <div class="modal-container modal--close">
+      <article class="modal">
+        <h2 class="modal__title">Eliminar</h2>
+        <button class="modal__close">X</button>
+        <p class="modal__text">¿Deseas continuar?</p>
+        <div class="modal__button-container">
+          <button class="modal__button modal__button--confirm">
+            Eliminar
+          </button>
+          <button class="modal__button">No eliminar</button>
+        </div>
+      </article>
+    </div>
 
   <!-- Habla con nosotros -->
   <section class="hablaNosotros">
@@ -77,27 +97,26 @@
         <p class="titleForm">Hable con nosotros</p>
 
         <label class="form__label">
-          <input required="" placeholder="" type="text" class="input">
-          <span>Nombre</span>
+            <input required="" placeholder="" type="text" class="input">
+            <span>Nombre</span>
         </label>
 
         <label class="form__label">
-          <input required="" placeholder="" type="email" class="input">
-          <span>Email</span>
+            <input required="" placeholder="" type="email" class="input">
+            <span>Email</span>
         </label>
 
         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-          placeholder="Mensaje"></textarea>
+            placeholder="Mensaje"></textarea>
 
         <button class="submit" type="submit">Enviar Mensaje</button>
-      </form>
+    </form>
     </div>
   </section>
   <!-- Sección de Footer -->
   <footer class="footer">
     <div class="footer__logos">
-      <a href="https://github.com/Jhan24b"><img class="footer__logos__items" src="../assets/img/github.png"
-          alt="Github"></a>
+      <a href="https://github.com/Jhan24b"><img class="footer__logos__items" src="../assets/img/github.png" alt="Github"></a>
       <a href="https://www.linkedin.com/in/anthony-torres-13591b1b5/"><img class="footer__logos__items"
           src="../assets/img/linkedin.png" alt="LinkedIn"></a>
     </div>
@@ -113,7 +132,7 @@
     </div>
   </footer>
 
-  <script type="module" src="../controllers/producto-controller.js"></script>
+  <script type="module" src="../controllers/productos-controller.js"></script>
 </body>
 
 </html>

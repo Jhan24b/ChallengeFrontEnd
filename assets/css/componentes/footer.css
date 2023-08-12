@@ -76,7 +76,7 @@
 
 .form__label .input,
 .formcontato__textarea {
-  padding: 10px 10px 20px 10px;
+  padding: 5px 10px 15px 10px;
   outline: 0;
   border: 1px solid rgb(125, 142, 209);
   border-radius: 10px;
@@ -99,7 +99,7 @@
 
 .form__label .input:focus+span,
 .form__label .input:valid+span {
-  top: 30px;
+  top: 45px;
   font-size: 0.7em;
   font-weight: 600;
 }
@@ -164,4 +164,11 @@
 
 .footer__logos__items {
     width: 40px;
+}
+
+.lista_item{
+  font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    /* color: rgb(51, 51, 198); */
+    padding: 6px 0px;
 }

@@ -1,97 +1,130 @@
 {
-  "inventario": {
-    "StarsWars": [
-      {
-        "img": "../assets/img/unsplash_6FDXGY9J6y4.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_epRFE_hBNjo.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_KeGToDVN0l4.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },{
-        "img": "../assets/img/unsplash_4OHkK555s1A.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_R8L1l9RN198.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_1VV1MRafd7A.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      }
-    ],
-    "Consolas": [
-      {
-        "img": "../assets/img/unsplash_0POwK6iAiRQ.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_caNzzoxls8Q.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_ZV7lnfyQLmA.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },{
-        "img": "../assets/img/unsplash_wa5z9o9fgjw.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_Zjn4dT993-g.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_k-xYhI3-gJM.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      }
-    ],
-    "Diversos": [
-      {
-        "img": "../assets/img/unsplash_fMP-oCze3AY.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_bUgaIaZysH0.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_sYVY_ZKwaxU.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },{
-        "img": "../assets/img/unsplash_jMT6BrgBuXU.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_MxVkWPiJALs.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      },
-      {
-        "img": "../assets/img/unsplash_r27umXAelDc.png",
-        "title": "Producto xyz",
-        "price": "$60.00"
-      }
-    ]
-  }
+  "inventario": [
+    {
+      "img": "../assets/img/unsplash_6FDXGY9J6y4.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 1,
+      "category": "StarsWars"
+    },
+    {
+      "img": "../assets/img/unsplash_epRFE_hBNjo.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 2,
+      "category": "StarsWars"
+    },
+    {
+      "img": "../assets/img/unsplash_KeGToDVN0l4.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 3,
+      "category": "StarsWars"
+    },
+    {
+      "img": "../assets/img/unsplash_4OHkK555s1A.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 4,
+      "category": "StarsWars"
+    },
+    {
+      "img": "../assets/img/unsplash_R8L1l9RN198.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 5,
+      "category": "StarsWars"
+    },
+    {
+      "img": "../assets/img/unsplash_1VV1MRafd7A.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 6,
+      "category": "StarsWars"
+    },
+    {
+      "img": "../assets/img/unsplash_0POwK6iAiRQ.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 7,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_caNzzoxls8Q.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 8,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_ZV7lnfyQLmA.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 9,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_wa5z9o9fgjw.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 10,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_Zjn4dT993-g.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 11,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_k-xYhI3-gJM.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 12,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_fMP-oCze3AY.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 13,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_bUgaIaZysH0.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 14,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_sYVY_ZKwaxU.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 15,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_jMT6BrgBuXU.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 16,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_MxVkWPiJALs.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 17,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_r27umXAelDc.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 18,
+      "category": "Diversos"
+    }
+  ]
 }

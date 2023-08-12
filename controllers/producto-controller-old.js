@@ -1,19 +1,19 @@
 import { productService } from "../services/product-service.js";
-const crearLinea = (img, title, price) => {
+const crearLinea= (img,title,price)=>{
     const item = document.createElement("div");
     const cod = `
-    <img class="inventario__item__img" src=${img}>
+    <img src=${img}>
     <div class="descripcion">
     <span class="item__title">${title}</span>
     <span class="item__precio">${price}</span>
     <span class="item__detalles"><a href="#">Ver producto</a></span>
     <div/>`;
-    item.className = "item";
-    item.innerHTML = cod;
-    return item;
+  item.className="item";
+  item.innerHTML=cod;
+  return item;
 }
 
-const crearDivCategoria = (categoria) => {
+const crearDivCategoria = (categoria) =>{
     const cat = document.createElement("div");
     const cod = `
     <div class="encabezado">
@@ -24,26 +24,26 @@ const crearDivCategoria = (categoria) => {
     <div class="productos" id=${categoria}>
     </div>
     `;
-    cat.className = "categoria";
-    cat.innerHTML = cod;
+    cat.className="categoria";
+    cat.innerHTML=cod;
     return cat;
 }
 
 const categorias = document.querySelector("[inventarios]");
-productService.listaCategorias().then((lista) => {
-    lista.forEach((cat) => {
-        const newcat = crearDivCategoria(cat);
+productService.listaCategorias().then((lista) =>{
+    lista.forEach((l)=>{
+        const newcat = crearDivCategoria(Object.keys(l).toString());
         categorias.appendChild(newcat);
-        const doc = document.getElementById(cat);
-        productService.listaProductos().then((productos) => {
-            productos.filter((it)=>it.category === cat)
-            .forEach(({ img, title, price }) => {
+        const doc = document.getElementById(Object.keys(l).toString());
+        Object.values(l).forEach((val) => {
+            Object.values(val).forEach(({ img, title, price }) => {
                 const newLine = crearLinea(img, title, price);
                 doc.appendChild(newLine);
             });
-        })
+        });        
     });
-}).catch((er) => {
+}).catch((er)=>{   
     alert("Ocurrio un error", er);
-    console.log("here", er)
+    console.log("here",er)
 });
+

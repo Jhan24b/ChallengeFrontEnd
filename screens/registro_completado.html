@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Doguito Petshop | Registro concluido</title>
-    <link rel="icon" href="../assets/img/doguitoadm.svg" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../assets/css/base/base.css" />
-    <link rel="stylesheet" href="../assets/css/componentes/header.css" />
-    <link rel="stylesheet" href="../assets/css/register_complete.css" />
-    <link rel="stylesheet" href="../assets/css/componentes/card.css" />
-    <link rel="stylesheet" href="../assets/css/componentes/inputs.css" />
-    <link rel="stylesheet" href="../assets/css/componentes/button.css" />
-  </head>
-  <body>
-    <header class="header container">
-      <img
-        src="../assets/img/doguitoadm.svg"
-        alt="Logotipo Doguito"
-        class="header__logo"
-      />
-      <nav>
-        <ul class="header__list-nav">
-          <li class="header__link"><a href="#">Dashboard</a></li>
-          <li class="header__link"><a href="#">Productos</a></li>
-          <li class="header__link">
-            <a href="index.html">Clientes </a>
-          </li>
-          <li class="header__link"><a href="#">Pets</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="container flex flex--column flex--center">
-      <section class="register-card card">
-        <span class="register-card__icon-complete"></span>
-        <h1 class="register-card__title card__title">¡Registro completado!</h1>
-        <a href="./lista_cliente.html" class="button">Ver clientes</a>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AluraGeek</title>
+  <link rel="icon" href="../assets/img/icono.jpeg" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/base/base.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/header.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/card.css" />
+  <link rel="stylesheet" href="../assets/css/register_client.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/inputs.css" />
+  <link rel="stylesheet" href="../assets/css/componentes/button.css" />
+  <link rel="stylesheet" href="../assets/css/formLogin.css">
+  <link rel="stylesheet" href="../assets/css/componentes/footer.css" />
+  <link rel="stylesheet" href="../assets/css/register_complete.css">
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header__side">
+      <img src="../assets/img/logo.png" alt="Logo AluraGeeks" class="header__logo" />
+
+      <div class="group">
+        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+          <g>
+            <path
+              d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+            </path>
+          </g>
+        </svg>
+        <input placeholder="Que desea buscar?" type="search" class="input">
+      </div>
+    </div>
+    <button id="bottone5"><a href="../screens/principal.html">Menu Administrador</a></button>
+  </header>
+  <main class="container__extra flex flex--column flex--center">
+    <section class="register-card card">
+      <span class="register-card__icon-complete"></span>
+      <h1 class="register-card__title card__title">¡Registro completado!</h1>
+      <button id="bottone5"><a href="../screens/principal.html">Menu Principal</a></button>
+    </section>
+  </main>
+
+  <!-- Sección de Footer -->
+  <footer class="footer">
+    <div class="footer__logos">
+      <a href="https://github.com/Jhan24b"><img class="footer__logos__items" src="../assets/img/github.png"
+          alt="Github"></a>
+      <a href="https://www.linkedin.com/in/anthony-torres-13591b1b5/"><img class="footer__logos__items"
+          src="../assets/img/linkedin.png" alt="LinkedIn"></a>
+    </div>
+    <div class="footer__rodape">
+      <p class="footer__texto">Desarrollado por Anthony J. Torres</p>
+      <p class="footer__texto">2023</p>
+    </div>
+    <div class="footer__logos">
+      <a href="https://github.com/Jhan24b"><img src="../assets/img/instagram.png" class="footer__logos__items"
+          alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/anthony-torres-13591b1b5/"><img src="../assets/img/facebook.png"
+          class="footer__logos__items" alt="Facebook"></a>
+    </div>
+  </footer>
+</body>
+
 </html>

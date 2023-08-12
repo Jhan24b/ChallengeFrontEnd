@@ -1,271 +1,146 @@
 {
-  "perfil": [
-    {
-      "nombre": "Harland Lohora",
-      "email": "harland@alura.com",
-      "id": 1
-    },
-    {
-      "nombre": "Thony",
-      "email": "thony@gmail.com",
-      "id": "0e031753-e579-4d7b-aa69-18abec61e50a"
-    },
-    {
-      "nombre": "Manuel",
-      "email": "manu@gmail.com",
-      "id": "84473e6c-5e45-4515-9013-2bec40df1a7b"
-    },
-    {
-      "nombre": "Miguel",
-      "email": "migue@gmail.com",
-      "id": "5074b04c-ec8f-4cf1-8422-c1267c6d159d"
-    },
-    {
-      "nombre": "Daniel Malaga Cordova",
-      "email": "dani@gmail.com",
-      "id": "4d3f9ae3-3cd9-42a5-9e5f-76635c4d237d"
-    }
-  ],
-  "productos":[
+  "inventario": [
     {
       "img": "../assets/img/unsplash_6FDXGY9J6y4.png",
       "title": "Producto xyz",
       "price": "$60.00",
-      "category": "Stars Wars"
+      "id": 1,
+      "category": "StarsWars"
     },
     {
       "img": "../assets/img/unsplash_epRFE_hBNjo.png",
       "title": "Producto xyz",
       "price": "$60.00",
-      "category": "Stars Wars"
+      "id": 2,
+      "category": "StarsWars"
     },
     {
       "img": "../assets/img/unsplash_KeGToDVN0l4.png",
       "title": "Producto xyz",
       "price": "$60.00",
-      "category": "Stars Wars"
-    },{
+      "id": 3,
+      "category": "StarsWars"
+    },
+    {
       "img": "../assets/img/unsplash_4OHkK555s1A.png",
       "title": "Producto xyz",
       "price": "$60.00",
-      "category": "Stars Wars"
+      "id": 4,
+      "category": "StarsWars"
     },
     {
       "img": "../assets/img/unsplash_R8L1l9RN198.png",
       "title": "Producto xyz",
       "price": "$60.00",
-      "category": "Stars Wars"
+      "id": 5,
+      "category": "StarsWars"
     },
     {
       "img": "../assets/img/unsplash_1VV1MRafd7A.png",
       "title": "Producto xyz",
       "price": "$60.00",
-      "category": "Stars Wars"
-    }
-  ],
-  "inventario":[
-    {
-      "StarsWars":[
-        {
-          "img": "../assets/img/unsplash_6FDXGY9J6y4.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_epRFE_hBNjo.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_KeGToDVN0l4.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },{
-          "img": "../assets/img/unsplash_4OHkK555s1A.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_R8L1l9RN198.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_1VV1MRafd7A.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        }
-      ]
+      "id": 6,
+      "category": "StarsWars"
     },
     {
-      "Consolas":[
-        {
-          "img": "../assets/img/unsplash_0POwK6iAiRQ.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_caNzzoxls8Q.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_ZV7lnfyQLmA.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },{
-          "img": "../assets/img/unsplash_wa5z9o9fgjw.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_Zjn4dT993-g.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_k-xYhI3-gJM.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        }
-      ]
+      "img": "../assets/img/unsplash_0POwK6iAiRQ.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 7,
+      "category": "Consolas"
     },
     {
-      "Diversos":[
-        {
-          "img": "../assets/img/unsplash_fMP-oCze3AY.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_bUgaIaZysH0.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_sYVY_ZKwaxU.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },{
-          "img": "../assets/img/unsplash_jMT6BrgBuXU.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_MxVkWPiJALs.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_r27umXAelDc.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        }
-      ]
-    }
-  ],
-  "inventario2":[
-    {
-      "category":"Stars Wars",
-      "productos":[
-        {
-          "img": "../assets/img/unsplash_6FDXGY9J6y4.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_epRFE_hBNjo.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_KeGToDVN0l4.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },{
-          "img": "../assets/img/unsplash_4OHkK555s1A.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_R8L1l9RN198.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_1VV1MRafd7A.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        }
-      ]
+      "img": "../assets/img/unsplash_caNzzoxls8Q.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 8,
+      "category": "Consolas"
     },
     {
-      "category":"Consolas",
-      "productos":[
-        {
-          "img": "../assets/img/unsplash_0POwK6iAiRQ.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_caNzzoxls8Q.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_ZV7lnfyQLmA.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },{
-          "img": "../assets/img/unsplash_wa5z9o9fgjw.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_Zjn4dT993-g.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_k-xYhI3-gJM.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        }
-      ]
+      "img": "../assets/img/unsplash_ZV7lnfyQLmA.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 9,
+      "category": "Consolas"
     },
     {
-      "category":"Diversos",
-      "productos":[
-        {
-          "img": "../assets/img/unsplash_fMP-oCze3AY.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_bUgaIaZysH0.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_sYVY_ZKwaxU.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },{
-          "img": "../assets/img/unsplash_jMT6BrgBuXU.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_MxVkWPiJALs.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        },
-        {
-          "img": "../assets/img/unsplash_r27umXAelDc.png",
-          "title": "Producto xyz",
-          "price": "$60.00"
-        }
-      ]
+      "img": "../assets/img/unsplash_wa5z9o9fgjw.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 10,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_Zjn4dT993-g.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 11,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_k-xYhI3-gJM.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 12,
+      "category": "Consolas"
+    },
+    {
+      "img": "../assets/img/unsplash_fMP-oCze3AY.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 13,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_bUgaIaZysH0.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 14,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_sYVY_ZKwaxU.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 15,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_jMT6BrgBuXU.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 16,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_MxVkWPiJALs.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 17,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/unsplash_r27umXAelDc.png",
+      "title": "Producto xyz",
+      "price": "$60.00",
+      "id": 18,
+      "category": "Diversos"
+    },
+    {
+      "img": "../assets/img/github.png",
+      "title": "Git Shirt",
+      "price": "$30.00",
+      "category": "StarsWars",
+      "descripcion": "Polo con el logo moderno de GitHub",
+      "id": "c4e987ef-8462-404d-8506-4cc8d878a8e0"
+    },
+    {
+      "category": "StarsWars",
+      "img": "../assets/img/github.png",
+      "title": "Git",
+      "descripcion": "github en venta",
+      "price": "$10.00",
+      "id": "ccbebdfd-9096-46de-b5e8-ebc1e9f24d15"
     }
   ]
 }
