@@ -1,6 +1,11 @@
 @import url(_reset.css);
 @import url(_variables.css);
 
+.a{
+  text-decoration: none;
+  
+}
+
 body {
   background-color: white;
   color: var(--contrast-dark-color);
